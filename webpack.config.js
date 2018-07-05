@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'wy-vdialog.js',
+    filename: 'wy-vdialog.min.js',
     library: 'vDialog',
     libraryTarget: 'umd',
     umdNamedDefine: true
