@@ -1,0 +1,66 @@
+
+/*监听屏幕像素比来设置1px*/
+
+@media (-webkit-min-device-pixel-ratio: 1.5) , (min-device-pixel-ratio: 1.5) {
+
+  .top-1px {
+    &::before {
+      -webkit-transform: scaleY(0.7);
+      transform: scaleY(0.7);
+    }
+  }
+
+  .bot-1px {
+    &::after {
+      -webkit-transform: scaleY(0.7);
+      transform: scaleY(0.7);
+    }
+  }
+
+  .lef-1px {
+    &::before {
+      -webkit-transform: scaleX(0.7);
+      transform: scaleX(0.7);
+    }
+  }
+
+  .rig-1px {
+    &::after {
+      -webkit-transform: scaleX(0.7);
+      transform: scaleX(0.7);
+    }
+  }
+
+}
+
+@media (-webkit-min-device-pixel-ratio: 2.0) , (min-device-pixel-ratio: 2.0) {
+
+  .top-1px {
+    &::before {
+      -webkit-transform: scaleY(0.5);
+      transform: scaleY(0.5);
+    }
+  }
+
+  .bot-1px {
+    &::after {
+      -webkit-transform: scaleY(0.5);
+      transform: scaleY(0.5);
+    }
+  }
+
+  .lef-1px {
+    &::before {
+      -webkit-transform: scaleX(0.5);
+      transform: scaleX(0.5);
+    }
+  }
+
+  .rig-1px {
+    &::after {
+      -webkit-transform: scaleX(0.5);
+      transform: scaleX(0.5);
+    }
+  }
+
+}
