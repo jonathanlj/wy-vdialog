@@ -16,8 +16,9 @@ export default {
   methods: {
     test() {
       this.$dialog
-        .confirm("Please confirm to continue", {
-          reverse: true
+        .alert({
+          title: "友情提示",
+          body: "测试工作"
         })
         .then(() => {
           // 点击确定执行

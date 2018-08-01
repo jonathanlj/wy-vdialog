@@ -3,7 +3,6 @@
   "version": "1.0.2",
   "description": "vue dialog component",
   "main": "dist/wy-vdialog.min.js",
-  "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
